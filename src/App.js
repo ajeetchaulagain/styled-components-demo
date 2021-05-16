@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {StyledLink} from './components/Link';
 
 const Title = styled.h1`
   font-size: 1.5em;
@@ -28,11 +29,12 @@ const Button = styled.button`
 function App() {
   return (
     <Wrapper>
-    <Title>
-      Hello World!
-    </Title>
+     <Title>
+       Hello World!
+     </Title>
     <Button>Norma Button</Button>
     <Button primary>Primary Button</Button>
+    <StyledLink>Styled, exciting Link</StyledLink>
   </Wrapper>
   );
 }
