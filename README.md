@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Styled Components Demo
+
+This Project demonstrates the usage of styled-components in various form with React App.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
